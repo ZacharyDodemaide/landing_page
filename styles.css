@@ -14,15 +14,16 @@ body {
 }
 
 .introduction {
-    background: linear-gradient(#03080edc 25%, #000208 75%);
+    background-image: linear-gradient(#051b33 25%,#02050a 75%);
     display: flex;
     color: white;
-    justify-content: space-around;
     gap: 250px;
+    justify-content: center;
 }
 
-.hero_text {
+.hero_content {
     padding-left: 50px;
+   
 }
 
 .hero_main {
@@ -41,3 +42,46 @@ body {
     align-self: flex-end;
 
 }
+
+.button {
+    background-color: transparent;
+    font-size: 13px;
+    color: #E5E7EB;
+    border: 2px solid #c7ccd4;
+    cursor: pointer;
+    font-weight: bold;
+    appearance: auto;
+    border-radius: 30px;
+    padding: 15px;
+    padding-inline-end:40px;
+    padding-inline-start: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.button:hover {
+    color: #f2f4f7;
+    background-color:#20252e80;
+    transform: scale(1.05) perspective(1px);
+    }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#051b33 25%,#02050a 75%);
+
+}
+
+.content_title {
+    display: flex;
+    justify-content: center;
+}
+
+.novels {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 48px;
+    gap: 32px
+}
+
+
