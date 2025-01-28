@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-body {
-    font-family: 'Roboto';
-    
+html, body {
+    font-family: 'Montserrat', 'Roboto';
+    margin: 0;
+    padding: 0;
 }
 
 * {
@@ -25,6 +27,8 @@ body {
     gap: 250px;
     justify-content: center;
 }
+
+/* Hero Section */
 
 .hero_content {
     padding-left: 50px;
@@ -70,6 +74,8 @@ body {
     transform: scale(1.05) perspective(1px);
     }
 
+/* Cards Section */
+
 .content {
     display: flex;
     flex-direction: column;
@@ -80,6 +86,7 @@ body {
 .content_title {
     display: flex;
     justify-content: center;
+    font-size: 32px;
 }
 
 .content_novels {
@@ -89,6 +96,8 @@ body {
     padding: 48px;
     gap: 160px;
 }
+
+/* Quote Section */
 
 .quote {
     background-color: #02050a;
@@ -103,7 +112,7 @@ body {
 }
 
 .quote_contents {
-    max-width: 700px;
+    width: 65%;
     margin-bottom: 0px;
 }
 
@@ -116,4 +125,42 @@ body {
     justify-content: end;
 }
 
+.action {
+    background-color: #02050a;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
 
+/* Request for Action Section */
+
+.action_contents {
+    background-image: linear-gradient(rgb(31, 46, 56), rgb(9, 15, 26));
+    width: 35%;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action_title > p {
+    font-size: 28px;  
+    margin: 0px;
+}
+
+.action_text > p {
+    text-align: center
+    ;
+}
+
+/* Footer Section */
+
+.footer {
+    color: lightgray;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer > div > p { margin: 0px; }
